@@ -1,0 +1,68 @@
+
+test_getPeople numEachGroup=0 numWatches=0
+SUCCESS 1  -right number of people points:27
+SUCCESS 2 - right number of watches points:29
+SUCCESS 3 - right watch order points:31
+
+test_getPeople numEachGroup=4 numWatches=1
+SUCCESS 1  -right number of people points:33
+SUCCESS 2 - right number of watches points:35
+SUCCESS 3 - right watch order points:37
+
+test_getPeople numEachGroup=4 numWatches=10
+SUCCESS 1  -right number of people points:39
+SUCCESS 2 - right number of watches points:41
+SUCCESS 3 - right watch order points:43
+
+test_getPeople numEachGroup=4 numWatches=20
+SUCCESS 1  -right number of people points:45
+SUCCESS 2 - right number of watches points:47
+SUCCESS 3 - right watch order points:49
+
+test saySomething for American
+SUCCESS 4 - phrasing points:51
+SUCCESS 4 - phrasing points:52
+SUCCESS 4 - phrasing points:53
+SUCCESS 4 - phrasing points:54
+SUCCESS 4 - phrasing points:55
+SUCCESS 4 - phrasing points:56
+
+test saySomething for American Donut Enthusiest
+SUCCESS 4 - phrasing points:57
+SUCCESS 4 - phrasing points:58
+SUCCESS 4 - phrasing points:59
+SUCCESS 4 - phrasing points:60
+SUCCESS 4 - phrasing points:61
+SUCCESS 4 - phrasing points:62
+SUCCESS 4 - phrasing points:63
+SUCCESS 4 - phrasing points:64
+SUCCESS 4 - phrasing points:65
+SUCCESS 4 - phrasing points:66
+SUCCESS 4 - phrasing points:67
+
+test saySomething for Brit
+SUCCESS 4 - phrasing points:68
+SUCCESS 4 - phrasing points:69
+SUCCESS 4 - phrasing points:70
+SUCCESS 4 - phrasing points:71
+SUCCESS 4 - phrasing points:72
+SUCCESS 4 - phrasing points:73
+SUCCESS 4 - phrasing points:74
+SUCCESS 4 - phrasing points:75
+
+testWatchMove with just 1 watch, giving and taking it from all 3 derived classes
+SUCCESS 4 - gettime() points:77
+SUCCESS 4 - gettime() points:78
+SUCCESS 4 - gettime() points:79
+SUCCESS 4 - gettime() points:81
+SUCCESS 4 - gettime() points:82
+SUCCESS 4 - gettime() points:84
+SUCCESS  verify that taking a watch twice results in NULL points:86
+SUCCESS 4 - gettime() points:88
+SUCCESS 4 - gettime() points:89
+SUCCESS 4 - gettime() points:91
+SUCCESS  verify that taking a watch twice results in NULL points:93
+SUCCESS 4 - gettime() points:95
+SUCCESS 4 - gettime() points:96
+SUCCESS 4 - gettime() points:98
+SUCCESS  verify that taking a watch twice results in NULL points:100
